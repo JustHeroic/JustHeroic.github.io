@@ -1,0 +1,6 @@
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+}
+
+/*!--this creates the dimensions for the website to be viewed by a tablet*/

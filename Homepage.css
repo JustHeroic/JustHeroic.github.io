@@ -1,0 +1,65 @@
+@charset "UTF-8";
+body {
+width: 900px;
+height: 900px;
+color: rgb(211,211,211);
+    background: linear-gradient(  	#778899  90% , rgb(255, 255, 255)) ;
+    font-family: Verdana,Tahoma, sans-serif;
+}
+
+
+
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    margin-top: 1%;
+}
+
+#banner {
+    height: 120px;
+   
+}
+
+#banner h1 {
+    text-align: center;
+    color: rgb(211,211,211);
+    font-size: 95px
+}
+
+.clear{
+    clear: both;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+/* creates the dimensions for the navigation bar */
+  .nav .nav-links{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 3rem;
+  }
+   /* dictates the type of list used*/
+  .nav li{
+    padding: 1rem;
+   list-style-type: none;
+  }
+ /* creates the design of the links on the navigation bar*/
+  .nav a{
+    text-decoration: none;
+    color: rgb(211,211,211);
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-weight: 500;
+  }
+form{
+border-color:  rgb(0, 0, 0);
+}
